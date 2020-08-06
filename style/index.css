@@ -1,3 +1,5 @@
+/** Reset **/
+
 * {
     font-size: 100%;
     font: inherit;
@@ -11,6 +13,23 @@
 a {
     text-decoration: none;
 }
+
+
+/** CSS Animations **/
+
+@keyframes focus {
+    from {
+        margin-bottom: 0;
+        opacity: 0.2;
+    }
+    to {
+        margin-bottom: 5%;
+        opacity: 1;
+    }
+}
+
+
+/** General Styling **/
 
 body {
     font-family: 'Open Sans', sans-serif;
@@ -118,6 +137,11 @@ header .text-container {
 
 .project-image {
     width: 24%;
+}
+
+.project-image:hover {
+    animation: focus 2s;
+    animation-fill-mode: both;
 }
 
 section.gallery-section .text-container {
