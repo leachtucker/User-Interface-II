@@ -73,18 +73,24 @@ header {
 
 nav {
     margin: 2% 0;
-    width: 25%;
     display: flex;
     justify-content: center;
 }
 
 nav a {
-    width: 25%;
     text-align: center;
-    padding: 1% 0;
+    padding: 1% 2%;
     border: 1px solid #021D44;
     color: white;
     background-color: #E94151;
+    font-size: 1.4vw;
+    transition: 1s;
+}
+
+nav a:hover {
+    color: ##E94151;
+    background-color: #021D44;
+    border: 1px solid white;
 }
 
 .button1 {
