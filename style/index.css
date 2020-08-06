@@ -29,10 +29,17 @@ h6 {
 
 h1 {
     font-size: 2.5rem;
+    font-weight: 575;
+    letter-spacing: 3px;
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: 1.8rem;
+    font-weight: 550;
+}
+
+section {
+    border-radius: 20px;
 }
 
 header {
@@ -40,6 +47,7 @@ header {
     flex-direction: column;
     align-items: center;
     padding: 4% 0;
+    padding-top: 3%;
     background-color: #021D44;
     color: white;
 }
@@ -55,24 +63,25 @@ nav a {
     width: 25%;
     text-align: center;
     padding: 1% 0;
-    border: 1px solid grey;
-    color: black;
-    background-color: white;
+    border: 1px solid #021D44;
+    color: white;
+    background-color: #E94151;
 }
 
 .button1 {
-    border-bottom-left-radius: 5px;
-    border-top-left-radius: 5px;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
 }
 
 .button4 {
-    border-bottom-right-radius: 5px;
-    border-top-right-radius: 5px;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
 }
 
 header .text-container {
     width: 80%;
     margin-top: 2%;
+    font-size: .9rem;
 }
 
 .hero-image-section {
@@ -120,8 +129,14 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 2%;
-    background-color: #ecf0f1;
+    padding: 3% 0 2% 0;
+    background-color: #021D44;
 }
 
-footer a {}
+footer a {
+    color: white;
+    border: 1px solid #021D44;
+    padding: 1% 2%;
+    background-color: #E94151;
+    font-weight: 500;
+}
