@@ -232,6 +232,7 @@ footer a:hover {
         align-items: center;
         padding: 0 0;
     }
+    /* .left and .right refer to the left and right portions of the gallery section. */
     .gallery-section .left {
         justify-content: space-around;
         width: 90%;
@@ -254,6 +255,9 @@ footer a:hover {
         padding: 2% 0;
         text-align: center;
     }
+    footer {
+        padding: 8% 0 7% 0;
+    }
     footer a {
         font-size: 1.5rem;
     }
@@ -265,5 +269,15 @@ footer a:hover {
 @media (max-width: 390px) {
     h2 {
         font-size: 1.3rem;
+    }
+    .project-image {
+        width: 44%;
+        margin-top: 6%;
+    }
+    footer a {
+        font-size: 1.25rem;
+    }
+    footer a:hover {
+        font-size: 1.55rem;
     }
 }
