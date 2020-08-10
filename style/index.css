@@ -261,3 +261,9 @@ footer a:hover {
         font-size: 1.75rem;
     }
 }
+
+@media (max-width: 390px) {
+    h2 {
+        font-size: 1.3rem;
+    }
+}
